@@ -20,6 +20,10 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
+# GraphQL gems
+gem "graphql", "~> 2.0"
+gem "apollo-federation", "~> 3.8"
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
@@ -34,10 +38,6 @@ gem "thruster", require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 gem "rack-cors"
-
-# GraphQL gems for Apollo Federation
-gem "graphql", "~> 2.0"
-gem "apollo-federation", "~> 3.8"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

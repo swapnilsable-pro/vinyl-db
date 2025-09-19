@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 class VinylDbSchema < GraphQL::Schema
+  # Enable Apollo Federation
+  include ApolloFederation::Schema
+
   mutation(Types::MutationType)
   query(Types::QueryType)
 

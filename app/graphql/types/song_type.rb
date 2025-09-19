@@ -2,6 +2,9 @@
 
 module Types
   class SongType < Types::BaseObject
+    # Apollo Federation key directive
+    key fields: :id
+
     field :id, ID, null: false
     field :title, String
     field :artist, String
