@@ -18,6 +18,13 @@ module Types
       ids.map { |id| context.schema.object_from_id(id, context) }
     end
 
+    # Song Library queries
+    field :songs, [Types::SongType], null: false, description: "Get all available songs"
+
+    def songs
+      Song.all
+    end
+
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
 
