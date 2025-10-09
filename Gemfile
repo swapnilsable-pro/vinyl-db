@@ -21,7 +21,7 @@ gem "solid_queue"
 gem "solid_cable"
 
 # GraphQL gems
-gem "graphql", "~> 2.0"
+gem "graphql", "~> 2.5"
 gem "apollo-federation", "~> 3.8"
 
 # Reduces boot times through caching; required in config/boot.rb
