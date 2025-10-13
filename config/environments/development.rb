@@ -58,5 +58,5 @@ Rails.application.configure do
   # config.i18n.raise_on_missing_translations = true
 
   # Allow requests from the 'vinyl-db' service name within our Docker network.
-  config.hosts << "vinyl-db"
+  config.hosts << "vinyl-db-service"
 end
