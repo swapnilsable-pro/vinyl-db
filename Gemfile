@@ -22,7 +22,7 @@ gem "solid_cable"
 
 # GraphQL gems
 gem "graphql", "~> 2.0"
-gem "apollo-federation", "~> 3.8"
+gem "apollo-federation", "~> 3.10"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
