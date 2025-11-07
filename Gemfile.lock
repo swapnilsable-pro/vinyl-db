@@ -123,7 +123,7 @@ GEM
     google-protobuf (4.32.1-x86_64-linux-musl)
       bigdecimal
       rake (>= 13)
-    graphql (2.5.12)
+    graphql (2.5.14)
       base64
       fiber-storage
       logger
@@ -350,7 +350,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
-  graphql (~> 2.0)
+  graphql (~> 2.5)
   kamal
   puma (>= 5.0)
   rack-cors
